@@ -33,7 +33,7 @@ sql_table = 'user.new_table'
 
 server = 'localhost'
 sql_user = 'root'
-sql_pwd = '980324'
+sql_pwd = ''
 try:
     sql_connect = pymysql.connect(server, sql_user, sql_pwd)
 except:
